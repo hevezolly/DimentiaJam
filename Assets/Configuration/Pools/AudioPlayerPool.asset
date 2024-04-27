@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ab77553a45d52b6b9e3a53c6b3c710, type: 3}
+  m_Name: AudioPlayerPool
+  m_EditorClassIdentifier: 
+  item: {fileID: -8166528499895799797, guid: a3b5ac821b39821278dc4cf07600ca76, type: 3}
+  numberOfItems:
+    scriptableValue: {fileID: 0}
+    UseSO: 0
+    noSOValue: 20
