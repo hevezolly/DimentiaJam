@@ -45,7 +45,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _RevolutionsCount: -112.40345
+    - _RevolutionsCount: 136.5293
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &392721485200289395

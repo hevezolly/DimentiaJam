@@ -29,7 +29,7 @@ public class ScreenShake : MonoBehaviour
 
     private void DoScreenShake(float strength) 
     {
-        currentStrength = Mathf.Max(currentStrength, 0) + Mathf.Abs(strength);
+        currentStrength = Mathf.Max(currentStrength, strength);
         currentStrength = Mathf.Clamp01(currentStrength);
     }
 

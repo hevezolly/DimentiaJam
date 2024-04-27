@@ -67,7 +67,7 @@ public class ItemHandle : MonoBehaviour
         item.PickUp(new ItemHolder(rb, this));
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         var item = other.GetComponentInParent<Item>(); 
         if (item == null)
