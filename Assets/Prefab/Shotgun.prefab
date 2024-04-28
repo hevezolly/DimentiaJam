@@ -202,6 +202,25 @@ MonoBehaviour:
     scriptableValue: {fileID: 0}
     UseSO: 0
     noSOValue: 0.5
+  damageAngle:
+    scriptableValue: {fileID: 0}
+    UseSO: 0
+    noSOValue: 40
+  damageDistance:
+    scriptableValue: {fileID: 0}
+    UseSO: 0
+    noSOValue: 3
+  damage:
+    scriptableValue: {fileID: 0}
+    UseSO: 0
+    noSOValue: 50
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  reloadTime:
+    scriptableValue: {fileID: 0}
+    UseSO: 0
+    noSOValue: 2
 --- !u!61 &8203557237542546593
 BoxCollider2D:
   m_ObjectHideFlags: 0

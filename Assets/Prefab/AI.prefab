@@ -165,8 +165,8 @@ MonoBehaviour:
     UseSO: 0
     noSOValue: 7
   maxSearchRadius:
-    scriptableValue: {fileID: 0}
-    UseSO: 0
+    scriptableValue: {fileID: 11400000, guid: f0a398ad6dfdc2231a7716478bfa51ba, type: 2}
+    UseSO: 1
     noSOValue: 10
   interractRadius:
     scriptableValue: {fileID: 0}

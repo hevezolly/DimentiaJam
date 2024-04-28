@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc6ce2c1186630499cbfc2bf1a2458f, type: 3}
   m_Name: SanityDrainPerSecond
   m_EditorClassIdentifier: 
-  currentValue: 0.01
+  currentValue: 0.005
   valueChangeEvent:
     m_PersistentCalls:
       m_Calls: []
