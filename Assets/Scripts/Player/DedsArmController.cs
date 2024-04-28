@@ -35,6 +35,8 @@ public class DedsArmController : MonoBehaviour
 
     private void Awake()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         rb = GetComponent<Rigidbody2D>();
 
         float aspect = (float)Screen.width / Screen.height;
@@ -57,10 +59,6 @@ public class DedsArmController : MonoBehaviour
         GrabState.Value = Input.GetMouseButton((int)wheelType);
         
         var mouseScreen = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
-
-
-        mouseScreen.x /= cameraWorldSize.x;
-        mouseScreen.y /= cameraWorldSize.y;
 
         mouseScreen *= _mouseSensitivity;
 

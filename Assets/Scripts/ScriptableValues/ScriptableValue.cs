@@ -7,7 +7,7 @@ using UnityEngine.Events;
 public class ScriptableValue<T> : ScriptableObject
 {
     [SerializeField]
-    private T currentValue;
+    protected T currentValue;
 
     [SerializeField]
     private UnityEvent<T> valueChangeEvent = new UnityEvent<T>();
@@ -16,6 +16,10 @@ public class ScriptableValue<T> : ScriptableObject
 
     private T _previusValue;
 
+    public virtual T GetPreviusValue() => _previusValue;
+
+
+    public static implicit operator T(ScriptableValue<T> value) => value.Value;
 
     public virtual T Value
     {
