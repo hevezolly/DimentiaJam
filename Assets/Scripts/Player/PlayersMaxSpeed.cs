@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class DedMaxSpeed : MonoBehaviour
+public class PlayersMaxSpeed : MonoBehaviour
 {
     [SerializeField] private ScriptableValueField<float> maxSpeed;
     [SerializeField] private ScriptableValueField<float> deceleration;

@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class DedsArmController : MonoBehaviour
+public class PlayersArmController : MonoBehaviour
 {
     private enum WheelType {
         Left = 0,

@@ -40,7 +40,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _maxValue: 0.01
-    - _sanity: 0.050000012
+    - _sanity: 0.4000001
     - _strength: 0.01
     m_Colors:
     - _Color: {r: 1, g: 0, b: 0, a: 0}
